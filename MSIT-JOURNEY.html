@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MSIT-JOURNEY</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background:#0000cd;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 60%;
+  background:#0000cd;
+
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 40%;
+  padding-left: 20px;
+  background:#0000cd;
+
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Fake image
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+} */
+
+/* Add a card effect for articles */
+.card {
+   background-color:rgb(221, 163, 54)	;
+   padding: 20px;
+   margin-top:30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background:#0000cd;
+
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  background:#0000cd;
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+.button {
+    background-color: #000000;
+    border:red;
+    color: rebeccapurple;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+</style>
+</head>
+<body>
+  <a href="/home/saketh/Desktop/WEB_DEVELOPMENT/Day-3/Project 0/index.html" class="button">HomePage</a>
+
+<div class="header">
+  <h2>MY MSIT JOURNEY</h2>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Profile Picture </h2>
+      <h5>Dec 7, 2017</h5>
+      <img src = /home/saketh/Downloads/Me.JPG width="70%" height="100%">
+
+    </div>
+    <div class="card">
+      <h2>My Experiences</h2>
+      <h5>In MSIT</h5>
+      <table>
+        <tr>
+            <th>Course Name </th>
+            <th>Grade</th>
+            <th>Course Experience</th>
+        </tr>
+        <tr>
+            <td>CT</td>
+            <td>B+</td>
+            <td>Good</td>
+        </tr>
+        <tr>
+            <td>CSPP-1</td>
+            <td>B</td>
+            <td>Better</td>
+        </tr>
+        <tr>
+            <td>IDS</td>
+            <td>B</td>
+            <td>Excellent</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>C</td>
+            <td>Better</td>
+        </tr>
+        <tr>
+            <td>ADS-1</td>
+            <td>B</td>
+            <td>Better</td>
+        </tr>
+        <tr>
+            <td>DBMS</td>
+            <td>B+</td>
+            <td>Excellent</td>
+        </tr>
+        <tr>
+            <td>SEF</td>
+            <td>A</td>
+            <td>Excellent</td>
+        </tr>
+        <tr>
+            <td>ADS-2</td>
+            <td>B</td>
+            <td>Better</td>
+        </tr>
+        <tr>
+            <td>IOS</td>
+            <td>B</td>
+            <td>Good</td>
+        </tr>
+        <tr>
+            <td>CNF</td>
+            <td>A</td>
+            <td>Good</td>
+        </tr>
+        <tr>
+            <td>ICS</td>
+            <td>B+</td>
+            <td>Better</td>
+        </tr>
+    </table>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <ul>
+        <li>Name     : Sai Saketh Nannaka </li>
+        <li>MSIT ID  : 2019501100</li>
+        <li>DOB      : 04-FEB-1998</li>
+        <li>Address  :705 kankadhara Landmark Apartemnt ECIL</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Do Subscribe</h3>
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <ol>
+          <li>LinkedIN : SAI SAKETH</li>
+          <li>GitHub   : SakethNannaka</li>
+
+      </ol>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="footer">
+  <h2>Footer</h2>
+</div> -->
+
+</body>
+</html>
