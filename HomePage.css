@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.bg {
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.thestatesman.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fmumbai-indians.jpg&imgrefurl=https%3A%2F%2Fwww.thestatesman.com%2Fsports%2Fipl-2018-rohit-sharma-led-mumbai-indians-squad-analysis-1502618723.html&tbnid=3P8w9HnITH3YvM&vet=12ahUKEwiwhaGMqd_oAhUS5XMBHT70BSYQMygKegUIARCTAg..i&docid=WsalnKuPBmRTsM&w=926&h=518&q=Rohit%20mumbai%20indians%20edited&ved=2ahUKEwiwhaGMqd_oAhUS5XMBHT70BSYQMygKegUIARCTAg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.dropbtn {
+background-color: red;
+color: white;
+padding: 16px;
+font-size: 36px;
+padding: 22px 52px;
+border: none;
+border-radius: 15px;
+
+}
+
+.dropdown {
+position: absolute;
+top: 80%;
+left: 45%;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:rgb(207, 194, 194);
+min-width: 228px;
+border-radius: 15px;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+font-size: 26px;
+display: block;
+border-radius: 15px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: red;
+}
