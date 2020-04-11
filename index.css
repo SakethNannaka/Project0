@@ -7,11 +7,18 @@ h1{
     padding: 4px;
 }
 h2{
-    color:black;
+    color:rgb(224, 41, 41);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
     padding: 10px;
+}
+h3{
+  color:rgb(224, 41, 41);
+  /* text-align: center; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  padding: 10px;
 }
 /* Add a gray background color with some padding */
 body {
@@ -45,6 +52,14 @@ body {
   grid-template-columns: 500px auto;  
 }
 
+.grid1 {
+  background: linear-gradient(to left, #00ccff 0%, #ffff99 99%,  #cc3300 25%);
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns:1000 px;  
+}
 .grid-item {
   font-size: 20px;
   padding: 20px;
@@ -68,6 +83,29 @@ body {
 h3{
    padding: 40px;
 }
+table{
+  row-gap: 20px;
+  column-gap: 20px;
+  border-style: solid;
+  padding: 10px;
+
+}
+td , th{
+  border-style: double;
+
+}
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
 
 
 
@@ -77,3 +115,4 @@ h3{
     width: 100%;
     padding: 0;
   }
+}
